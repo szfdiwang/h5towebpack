@@ -1,0 +1,29 @@
+{
+  "name": "appdownload1",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack --mode development",
+    "dev": "webpack-dev-server --inline --progress --config webpack.config.js --mode development"
+  },
+  "author": "cc",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "exports-loader": "^0.7.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.5",
+    "n-zepto": "^1.2.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "script-loader": "^0.7.2",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.27.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "zepto": "^1.2.0"
+  }
+}

@@ -1,0 +1,1 @@
+var basicUrl = 'http://test.myerong.com:5080/inner/';
